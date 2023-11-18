@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/integrationstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_uYmbcIYhEe67yt61kj23dw" type="Esb" name="PetStoreAPI" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_uY2TEIYhEe67yt61kj23dw" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_uY2TFYYhEe67yt61kj23dw" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_ucYvQIYhEe67yt61kj23dw" type="3668" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:BasicCompartment" xmi:id="_ucYvQoYhEe67yt61kj23dw" type="7044">
+          <children xmi:type="notation:Node" xmi:id="_ucdnwIYhEe67yt61kj23dw" type="3669">
+            <children xmi:type="notation:Node" xmi:id="_ucfc8IYhEe67yt61kj23dw" type="3670">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_ucfc8YYhEe67yt61kj23dw"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_ucfc8oYhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_ucfc84YhEe67yt61kj23dw"/>
+              <element xmi:type="esb:APIResourceInputConnector" href="PetStoreAPI.esb#//@server/@children.0/@resources.0/@inputConnector"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucfc9IYhEe67yt61kj23dw" x="86" y="-11"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ucfc9YYhEe67yt61kj23dw" type="3671">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_ucfc9oYhEe67yt61kj23dw"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_ucfc94YhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_ucfc-IYhEe67yt61kj23dw"/>
+              <element xmi:type="esb:APIResourceOutputConnector" href="PetStoreAPI.esb#//@server/@children.0/@resources.0/@outputConnector"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucfc-YYhEe67yt61kj23dw" x="86" y="-23"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ucfc-oYhEe67yt61kj23dw" type="3730">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_ucfc-4YhEe67yt61kj23dw"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_ucfc_IYhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_ucfc_YYhEe67yt61kj23dw"/>
+              <element xmi:type="esb:APIResourceOutSequenceOutputConnector" href="PetStoreAPI.esb#//@server/@children.0/@resources.0/@outSequenceOutputConnector"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucfc_oYhEe67yt61kj23dw" x="110" y="-11"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ucfc_4YhEe67yt61kj23dw" type="3672">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_ucfdAIYhEe67yt61kj23dw"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_ucfdAYYhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_ucfdAoYhEe67yt61kj23dw"/>
+              <element xmi:type="esb:APIResourceFaultInputConnector" href="PetStoreAPI.esb#//@server/@children.0/@resources.0/@faultInputConnector"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucfdA4YhEe67yt61kj23dw" x="86" y="7"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ucgEAIYhEe67yt61kj23dw" type="3673">
+              <children xmi:type="notation:Node" xmi:id="_uchSIIYhEe67yt61kj23dw" type="3487">
+                <children xmi:type="notation:Node" xmi:id="_uch5MIYhEe67yt61kj23dw" type="3608">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_uch5NYYhEe67yt61kj23dw" type="7034">
+                    <children xmi:type="notation:Node" xmi:id="_ucsRQIYhEe67yt61kj23dw" type="3515">
+                      <children xmi:type="notation:Node" xmi:id="_ucs4UIYhEe67yt61kj23dw" type="3085">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_ucs4UYYhEe67yt61kj23dw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_ucs4UoYhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_ucs4U4YhEe67yt61kj23dw"/>
+                        <element xmi:type="esb:SendMediatorInputConnector" href="PetStoreAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@InputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucs4VIYhEe67yt61kj23dw" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_ucs4VYYhEe67yt61kj23dw" type="3086">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_ucs4VoYhEe67yt61kj23dw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_ucs4V4YhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_ucs4WIYhEe67yt61kj23dw"/>
+                        <element xmi:type="esb:SendMediatorOutputConnector" href="PetStoreAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@OutputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucs4WYYhEe67yt61kj23dw" x="-11" y="-9"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_uctfYIYhEe67yt61kj23dw" type="3539">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_uctfYYYhEe67yt61kj23dw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_uctfYoYhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_uctfY4YhEe67yt61kj23dw"/>
+                        <element xmi:type="esb:SendMediatorEndpointOutputConnector" href="PetStoreAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@endpointOutputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uctfZIYhEe67yt61kj23dw"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_uctfZYYhEe67yt61kj23dw" type="3728">
+                        <children xmi:type="notation:DecorationNode" xmi:id="_uctfaoYhEe67yt61kj23dw" type="7046">
+                          <children xmi:type="notation:Node" xmi:id="_ucy-8IYhEe67yt61kj23dw" type="3709">
+                            <children xmi:type="notation:DecorationNode" xmi:id="_uczmBIYhEe67yt61kj23dw" type="5206"/>
+                            <children xmi:type="notation:Node" xmi:id="_uc00IIYhEe67yt61kj23dw" type="3710">
+                              <styles xmi:type="notation:DescriptionStyle" xmi:id="_uc00IYYhEe67yt61kj23dw"/>
+                              <styles xmi:type="notation:FontStyle" xmi:id="_uc00IoYhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+                              <styles xmi:type="notation:LineStyle" xmi:id="_uc00I4YhEe67yt61kj23dw"/>
+                              <element xmi:type="esb:HTTPEndPointInputConnector" href="PetStoreAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@mediatorFlow/@children.0/@inputConnector"/>
+                              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc00JIYhEe67yt61kj23dw"/>
+                            </children>
+                            <styles xmi:type="notation:DescriptionStyle" xmi:id="_uczmAIYhEe67yt61kj23dw"/>
+                            <styles xmi:type="notation:FontStyle" xmi:id="_uczmAYYhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+                            <styles xmi:type="notation:LineStyle" xmi:id="_uczmAoYhEe67yt61kj23dw"/>
+                            <element xmi:type="esb:HTTPEndpoint" href="PetStoreAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@mediatorFlow/@children.0"/>
+                            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uczmA4YhEe67yt61kj23dw" x="5" y="103"/>
+                          </children>
+                          <styles xmi:type="notation:TitleStyle" xmi:id="_uctfa4YhEe67yt61kj23dw" showTitle="true"/>
+                        </children>
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_uctfZoYhEe67yt61kj23dw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_uctfZ4YhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_uctfaIYhEe67yt61kj23dw"/>
+                        <element xmi:type="esb:MediatorFlow" href="PetStoreAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@mediatorFlow"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uctfaYYhEe67yt61kj23dw"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_ucsRQYYhEe67yt61kj23dw"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_ucsRQoYhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_ucsRQ4YhEe67yt61kj23dw"/>
+                      <element xmi:type="esb:SendMediator" href="PetStoreAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucsRRIYhEe67yt61kj23dw" x="25" y="95" width="170" height="100"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_uc-lIIYhEe67yt61kj23dw" type="3515">
+                      <children xmi:type="notation:Node" xmi:id="_uc_zQIYhEe67yt61kj23dw" type="3085">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_uc_zQYYhEe67yt61kj23dw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_uc_zQoYhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_uc_zQ4YhEe67yt61kj23dw"/>
+                        <element xmi:type="esb:SendMediatorInputConnector" href="PetStoreAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@InputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc_zRIYhEe67yt61kj23dw" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_uc_zRYYhEe67yt61kj23dw" type="3086">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_uc_zRoYhEe67yt61kj23dw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_uc_zR4YhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_uc_zSIYhEe67yt61kj23dw"/>
+                        <element xmi:type="esb:SendMediatorOutputConnector" href="PetStoreAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@OutputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc_zSYYhEe67yt61kj23dw" x="-11" y="-9"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_uc_zSoYhEe67yt61kj23dw" type="3539">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_uc_zS4YhEe67yt61kj23dw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_uc_zTIYhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_uc_zTYYhEe67yt61kj23dw"/>
+                        <element xmi:type="esb:SendMediatorEndpointOutputConnector" href="PetStoreAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@endpointOutputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc_zToYhEe67yt61kj23dw"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_udAaUIYhEe67yt61kj23dw" type="3728">
+                        <children xmi:type="notation:DecorationNode" xmi:id="_udAaVYYhEe67yt61kj23dw" type="7046">
+                          <styles xmi:type="notation:TitleStyle" xmi:id="_udAaVoYhEe67yt61kj23dw" showTitle="true"/>
+                        </children>
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_udAaUYYhEe67yt61kj23dw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_udAaUoYhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_udAaU4YhEe67yt61kj23dw"/>
+                        <element xmi:type="esb:MediatorFlow" href="PetStoreAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@mediatorFlow"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_udAaVIYhEe67yt61kj23dw"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_uc-lIYYhEe67yt61kj23dw"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_uc-lIoYhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_uc-lI4YhEe67yt61kj23dw"/>
+                      <element xmi:type="esb:SendMediator" href="PetStoreAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc-lJIYhEe67yt61kj23dw" x="25" y="200" width="270" height="100"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_udHIAIYhEe67yt61kj23dw" type="3761">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_udHIBYYhEe67yt61kj23dw" type="5211"/>
+                      <children xmi:type="notation:Node" xmi:id="_udIWIIYhEe67yt61kj23dw" type="3762">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_udIWIYYhEe67yt61kj23dw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_udIWIoYhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_udIWI4YhEe67yt61kj23dw"/>
+                        <element xmi:type="esb:DataMapperMediatorInputConnector" href="PetStoreAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_udIWJIYhEe67yt61kj23dw" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_udI9MIYhEe67yt61kj23dw" type="3763">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_udI9MYYhEe67yt61kj23dw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_udI9MoYhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_udI9M4YhEe67yt61kj23dw"/>
+                        <element xmi:type="esb:DataMapperMediatorOutputConnector" href="PetStoreAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_udI9NIYhEe67yt61kj23dw" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_udHIAYYhEe67yt61kj23dw"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_udHIAoYhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_udHIA4YhEe67yt61kj23dw"/>
+                      <element xmi:type="esb:DataMapperMediator" href="PetStoreAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_udHIBIYhEe67yt61kj23dw" x="235" y="200" width="84" height="115"/>
+                    </children>
+                    <styles xmi:type="notation:TitleStyle" xmi:id="_uch5NoYhEe67yt61kj23dw" showTitle="true"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_uch5MYYhEe67yt61kj23dw"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_uch5MoYhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_uch5M4YhEe67yt61kj23dw"/>
+                  <element xmi:type="esb:MediatorFlow" href="PetStoreAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uch5NIYhEe67yt61kj23dw"/>
+                </children>
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_uchSIYYhEe67yt61kj23dw"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_uchSIoYhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_uchSI4YhEe67yt61kj23dw"/>
+                <element xmi:type="esb:ProxyServiceSequenceAndEndpointContainer" href="PetStoreAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uchSJIYhEe67yt61kj23dw"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_uchSJYYhEe67yt61kj23dw" type="3488">
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_uchSJoYhEe67yt61kj23dw"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_uchSJ4YhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_uchSKIYhEe67yt61kj23dw"/>
+                <element xmi:type="esb:ProxyServiceFaultContainer" href="PetStoreAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uchSKYYhEe67yt61kj23dw"/>
+              </children>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_ucgEAYYhEe67yt61kj23dw"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_ucgEAoYhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_ucgEA4YhEe67yt61kj23dw"/>
+              <element xmi:type="esb:ProxyServiceContainer" href="PetStoreAPI.esb#//@server/@children.0/@resources.0/@container"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucgEBIYhEe67yt61kj23dw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ucxJwIYhEe67yt61kj23dw" type="3747">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_ucxJwYYhEe67yt61kj23dw"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_ucxJwoYhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_ucxJw4YhEe67yt61kj23dw"/>
+              <element xmi:type="esb:APIResourceInSequenceInputConnector" href="PetStoreAPI.esb#//@server/@children.0/@resources.0/@inSequenceInputConnectors.0"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucxJxIYhEe67yt61kj23dw"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_ucdnwYYhEe67yt61kj23dw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_ucdnwoYhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_ucdnw4YhEe67yt61kj23dw"/>
+            <element xmi:type="esb:APIResource" href="PetStoreAPI.esb#//@server/@children.0/@resources.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucdnxIYhEe67yt61kj23dw" width="300" height="400"/>
+          </children>
+        </children>
+        <element xmi:type="esb:SynapseAPI" href="PetStoreAPI.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucYvQYYhEe67yt61kj23dw" width="640" height="500"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_uY2TEYYhEe67yt61kj23dw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_uY2TEoYhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_uY2TE4YhEe67yt61kj23dw"/>
+    <element xmi:type="esb:EsbServer" href="PetStoreAPI.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uY2TFIYhEe67yt61kj23dw"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_uYmbcYYhEe67yt61kj23dw"/>
+  <element xmi:type="esb:EsbDiagram" href="PetStoreAPI.esb#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_udW_oIYhEe67yt61kj23dw" type="4001" source="_ucfc9YYhEe67yt61kj23dw" target="_ucs4UIYhEe67yt61kj23dw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_udW_oYYhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="esb:EsbLink" href="PetStoreAPI.esb#//@server/@children.0/@resources.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_udW_ooYhEe67yt61kj23dw" points="[6, 5, -5, 0]$[5, 0, -6, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_udaC8IYhEe67yt61kj23dw" type="4001" source="_uc_zRYYhEe67yt61kj23dw" target="_ucfc8IYhEe67yt61kj23dw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_udaC8YYhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="esb:EsbLink" href="PetStoreAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@OutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_udaC8oYhEe67yt61kj23dw" points="[-11, 7, 5, 0]$[-10, 4, 6, -3]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_uddGQIYhEe67yt61kj23dw" type="4001" source="_udI9MIYhEe67yt61kj23dw" target="_uc_zQIYhEe67yt61kj23dw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_uddGQYYhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="esb:EsbLink" href="PetStoreAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uddGQoYhEe67yt61kj23dw" points="[-11, 0, 75, 0]$[-80, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_udfigIYhEe67yt61kj23dw" type="4001" source="_ucfc-oYhEe67yt61kj23dw" target="_udIWIIYhEe67yt61kj23dw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_udfigYYhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="esb:EsbLink" href="PetStoreAPI.esb#//@server/@children.0/@resources.0/@outSequenceOutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_udfigoYhEe67yt61kj23dw" points="[-6, -4, 7, 3]$[-7, -4, 6, 3]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_udh-wIYhEe67yt61kj23dw" type="4001" source="_uctfYIYhEe67yt61kj23dw" target="_uc00IIYhEe67yt61kj23dw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_udh-wYYhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="esb:EsbLink" href="PetStoreAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@endpointOutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_udh-woYhEe67yt61kj23dw" points="[2, 9, -31, -110]$[31, 114, -2, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_udlCEIYhEe67yt61kj23dw" type="4001" source="_ucs4VYYhEe67yt61kj23dw" target="_ucxJwIYhEe67yt61kj23dw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_udlCEYYhEe67yt61kj23dw" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="esb:EsbLink" href="PetStoreAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@OutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_udlCEoYhEe67yt61kj23dw" points="[11, -8, -106, 68]$[111, -73, -6, 3]"/>
+  </edges>
+</notation:Diagram>
