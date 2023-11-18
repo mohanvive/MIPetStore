@@ -1,8 +1,8 @@
 version: 1.0
 endpoints:
-  - name: PetStoreAPI
+  - name: HelloWorld
     port: 8290
     type: REST
     networkVisibility: Public
-    context: "/pet/list/{status}"
+    context: /HelloWorld
     schemaFilePath: openapi.yaml
