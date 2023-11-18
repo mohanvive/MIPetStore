@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/pet" name="PetStoreAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/list/{status}">
+        <inSequence>
+            <send>
+                <endpoint>
+                    <http method="get" uri-template="https://petstore3.swagger.io/api/v3/pet/findByStatus?status={uri.var.status}">
+                        <suspendOnFailure>
+                            <initialDuration>-1</initialDuration>
+                            <progressionFactor>1</progressionFactor>
+                        </suspendOnFailure>
+                        <markForSuspension>
+                            <retriesBeforeSuspension>0</retriesBeforeSuspension>
+                        </markForSuspension>
+                    </http>
+                </endpoint>
+            </send>
+        </inSequence>
+        <outSequence>
+            <datamapper config="gov:datamapper/PetStoreResponseMapping.dmc" inputSchema="gov:datamapper/PetStoreResponseMapping_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/PetStoreResponseMapping_outputSchema.json" outputType="JSON" xsltStyleSheet="gov:datamapper/PetStoreResponseMapping_xsltStyleSheet.xml"/>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>
