@@ -1,12 +1,12 @@
 openapi: 3.0.1
 info:
-  title: HelloWorld
-  description: API Definition of HelloWorld
+  title: PetStore
+  description: "API Definition of PetStoreAPI"
   version: 1.0.0
 servers:
 - url: http://localhost:8290
 paths:
-  /HelloWorld:
+  /pet/list/{status}:
     get:
       responses:
         default:
