@@ -43,12 +43,6 @@
       <type>zip</type>
     </dependency>
     <dependency>
-      <groupId>com.example.resource</groupId>
-      <artifactId>PetStoreResponseMapping_xsltStyleSheet</artifactId>
-      <version>1.0.0</version>
-      <type>zip</type>
-    </dependency>
-    <dependency>
       <groupId>com.example.api</groupId>
       <artifactId>PetStoreAPI</artifactId>
       <version>1.0.0</version>
