@@ -4,7 +4,7 @@
         <inSequence>
             <send>
                 <endpoint>
-                    <http method="get" uri-template="https://petstore3.swagger.io/api/v3/pet/findByStatus?status={uri.var.status}">
+                    <http method="get" uri-template="https://run.mocky.io/v3/8efa2487-ebd6-4faf-85d3-1aa2c886fe37?status={uri.var.status}">
                         <suspendOnFailure>
                             <initialDuration>-1</initialDuration>
                             <progressionFactor>1</progressionFactor>
